@@ -21,3 +21,5 @@
 
 where to is your authorized number and from your number provided by twilio.
 
+
+ [reference](https://www.twilio.com/blog/2017/06/build-serverless-api-amazon-web-services-api-gateway.html)
