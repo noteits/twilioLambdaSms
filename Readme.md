@@ -1,14 +1,19 @@
-#Create and Install Twilio Lambda function to send sms on macos
+**Create and Install Twilio Lambda function to send sms on macos**
 `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
    
 `python get-pip.py` 
    
 `sudo python get-pip.py`
 
+`git clone https://github.com/noteits/twilioLambdaSms.git`
+
+`cd twilioLambdaSms`
+
 `pip2 install twilio==5.5.0 -t .`
+
+**Change account sid and token in function or pass it as a variables, then:**
+
    
-`git clone https://github.com/noteits/twilioLambdaSms.git` 
-  
 `zip -r twilioLambda.zip *`
 
 **Upload zip arcive to lambda function and run test execution** 
